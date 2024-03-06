@@ -28,14 +28,12 @@ class MyFrame extends JFrame implements ActionListener
     boolean en = false;
     MyFrame()
     {
-        ImageIcon image1 = new ImageIcon("F:\\Visual Studio\\Java\\Button\\mining.png");
-        ImageIcon image2= new ImageIcon("F:\\Visual Studio\\Java\\Button\\placing.png");
+        ImageIcon image1 = new ImageIcon("E:\\Visual Studio\\Java\\Button\\mining.png");
+        ImageIcon image2= new ImageIcon("E:\\Visual Studio\\Java\\Button\\placing.png");
 
         button_break = new JButton();
         button_break.setBounds(0,0,100,150);
         button_break.addActionListener(this);
-        //button.addActionListener(e -> System.out.println("STOP PRESSING ME!"));
-        //instead of this + method
         button_break.setFocusable(false);
         button_break.setText("Break blocks");
         button_break.setIcon(image1);
