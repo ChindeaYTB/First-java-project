@@ -28,8 +28,8 @@ class MyFrame extends JFrame implements ActionListener
     boolean en = false;
     MyFrame()
     {
-        ImageIcon image1 = new ImageIcon("E:\\Visual Studio\\Java\\Button\\mining.png");
-        ImageIcon image2= new ImageIcon("E:\\Visual Studio\\Java\\Button\\placing.png");
+        ImageIcon image1 = new ImageIcon("C:"Add your path"\\mining.png");
+        ImageIcon image2= new ImageIcon("C:"Add your path"\\placing.png");
 
         button_break = new JButton();
         button_break.setBounds(0,0,100,150);
