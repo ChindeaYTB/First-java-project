@@ -28,6 +28,7 @@ class MyFrame extends JFrame implements ActionListener
     boolean en = false;
     MyFrame()
     {
+        // Replace "Add your path" with the path where the images are.
         ImageIcon image1 = new ImageIcon("C:"Add your path"\\mining.png");
         ImageIcon image2= new ImageIcon("C:"Add your path"\\placing.png");
 
